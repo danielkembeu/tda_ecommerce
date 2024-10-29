@@ -1,0 +1,106 @@
+section{
+    position: relative;
+    left: 50vh;
+    height: 115vh;
+    width: 60vh;
+    border: 2px solid black;
+    align-items: center;
+}
+form > *{
+    margin: 20px;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.or{
+    position: relative;
+    height: 24px;
+    width: 24px;
+    border: 1px solid black;
+    outline: none;
+    left: 200px;
+    top: -30px;
+}
+#pink{
+    position: absolute;
+    text-transform: uppercase;
+}
+
+.yellow{
+    width: 80%;
+    overflow: hidden;
+    background: linear-gradient(60deg,
+    blue, white,red);
+    text-transform: uppercase;
+    transform: scaleY(1.3);
+    transition: 2s ease-in-out;
+}
+.yellow:hover{
+    cursor: pointer;
+    transform: scaleY(1.3);
+    transition: 2s ease-in-out;
+}
+
+.login_form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:600px){
+    secton{
+        font-size: .3px;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h3{
+    text-align: center;
+}
+#media{
+    display: flex;
+    justify-content: space-around;
+}
+#media > *{
+    font-size: 4rem;
+}
+.class{
+    text-align: center;
+    font-size: large;
+    text-transform: capitalize;
+}
+.class span{
+    text-transform: uppercase;
+    color: red;
+    margin-left: 8px;
+}
