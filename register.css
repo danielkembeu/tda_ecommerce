@@ -1,0 +1,206 @@
+body {
+  font-family: "poppins", sans-serif;
+}
+
+body{
+  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  height: 700px;
+  background: linear-gradient(-60deg, #fff2ff, #ffe3fd);
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 4%;
+  border-radius: 30px;
+  scale: 1.005;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #f6b570;
+  border-radius: 30px;
+  /* position: fixed; */
+  padding: 12px;
+  background: linear-gradient(45deg, #fbadf9, #f9d8f7);
+
+}
+
+/* Taille globale du formulaire */
+
+.form {
+  scale: .9;
+  width: 85%;
+}
+
+/* Bolc de l'image */
+
+
+.img-log {
+  border-radius: 20px;
+  box-shadow: 10px 0px 20px  #fbadf9;
+}
+
+.back-H {
+    position: absolute;
+    left: 320px;
+    padding-top: 20px;
+    background: linear-gradient(45deg, #fbadf9, #f9d8f7);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+
+.back-H:hover {
+  background: #f053e6;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all .5s;
+}
+
+/* Titre du formulaire */
+
+.h1-1 {
+  font-size: 2rem;
+  margin: 0px 0 -20px;
+}
+
+a {
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+
+/* Formulaire */
+
+.div-form {
+  display: flex;
+  width: 310px;
+  height: 600px;
+  align-items: center; 
+  justify-items: center;
+  padding-left: 40px;
+}
+
+
+p {
+  font-size: 0.8rem;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#clic {
+  width: 15px;
+  height: 15px;
+  margin: 0;
+}
+
+/* Or register with */
+
+.line {
+  margin: 10px 0;
+  
+}
+
+hr {
+  margin: 0;
+  
+}
+
+.Left-line {
+  margin-left: 220px;
+  right: 200px;
+}
+
+.reg {
+  text-align: center;
+  width: 320px;
+}
+
+.reg p{
+  margin: 0;
+}
+
+/* Boutton agree */
+
+.agree {
+  display: grid;
+  grid-template-columns: 1fr 20fr;
+  align-items: center;
+  height: 40px;
+  width: 330px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.agree p {
+  margin : 0 0 0 15px;
+
+}
+
+input {
+  border-radius: 4px;
+  margin-bottom: 30px;
+  background-color: rgba(248, 239, 229, 0.204);
+  border: 1px solid #ffffff;
+}
+
+.log {
+  width: 325px;
+  height: 35px;
+  border: 1px solid #f4e0c7;
+  border-radius: 5px;
+}
+
+.name,
+.L-name {
+  padding: 7px;
+  
+}
+
+/* Les input */
+.mail,
+.pwd {
+  width: 312px;
+  padding: 7px;
+}
+
+.pwd {
+  margin-bottom: 0;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  margin-top: 10x;
+  
+}
+
+button p {
+  margin: 0;
+  width: 50px;
+}
+
+.log-w {
+  padding-top: 10px;
+  display: inline-flex;
+  gap: 20px;
+  
+}
+
+.log-w button {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+  border-radius: 5px;
+}
+.google,
+.apple {
+  padding-top: 3px;
+  align-items: center;
+}
